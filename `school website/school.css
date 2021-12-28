@@ -20,13 +20,13 @@ border: none;
   width: 400px;
 }
 .grid-item:hover{
-	border: 1px solid rgba(0, 0, 0, 0.8);
+	border: 1px solid rgb(23, 164, 59);
   padding: 30px;
   font-size: 20px;
   text-align: center;
   border:10px white solid;
   background-color: white;
   font-family: 'texgyreadventorbold';
-  color: white;
+  color: rgb(23, 164, 59);
    transition-duration: 1s;
 }
