@@ -1,0 +1,32 @@
+#grid-parent{
+	display: grid;
+  grid-template-columns: auto auto auto;
+ 
+  padding: 10px;
+border: none;
+}
+.grid-item{
+
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  font-size: 20px;
+  text-align: center;
+  border:10px white solid;
+  background-color: rgb(23, 164, 59);
+  font-family: 'texgyreadventorbold';
+  color: white;
+  transition-duration: 1s;
+  height: 400px;
+  width: 400px;
+}
+.grid-item:hover{
+	border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  font-size: 20px;
+  text-align: center;
+  border:10px white solid;
+  background-color: rgb(232, 91, 196);
+  font-family: 'texgyreadventorbold';
+  color: white;
+   transition-duration: 1s;
+}
